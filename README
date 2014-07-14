@@ -26,10 +26,8 @@ SYNOPSIS
       my %results;
       tie %results => 'Tie::DuckDuckGo';
 
-      for (qw( perl reddit cpan )) {
-        say $results{$_}->{url};
-        say $results{$_}->{url};
-      }
+      my $result = $results{reddit};
+      say $_->{url} for @$result;
 
 DESCRIPTION
     I came across Darren Chamberlain's neat implementation of Tie::Google

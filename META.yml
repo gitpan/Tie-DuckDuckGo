@@ -32,4 +32,4 @@ resources:
   bugtracker: https://github.com/aggrolite/Tie-DuckDuckGo/issues
   homepage: https://github.com/aggrolite/Tie-DuckDuckGo
   repository: https://github.com/aggrolite/Tie-DuckDuckGo.git
-version: '0.01'
+version: '0.02'
